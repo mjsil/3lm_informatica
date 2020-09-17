@@ -24,29 +24,29 @@
 
 <p><strong>Back-End: </strong></p>
 <ul>  
-  <li>Node.js></li> 
-  <li>Express></li>
-  <li>Sucrase></li>
-  <li>Nodemon></li>
-  <li>Date-Fns></li>
-  <li>Cors></li>
-  <li>Sequelize></li>
-  <li>Prettier></li>
+  <li>Node.js</li> 
+  <li>Express</li>
+  <li>Sucrase</li>
+  <li>Nodemon</li>
+  <li>Date-Fns</li>
+  <li>Cors</li>
+  <li>Sequelize</li>
+  <li>Prettier</li>
 </ul>
 
 <p><strong>Compilando Back-End: </strong></p>
 <ul>  
-  <li>1) cd Back-End></li> 
-  <li>2) yarn install></li>
-  <li>3) yarn sequelize db:migrate> -> <strong>vai gerar as tabelas no seu banco de dados</strong></li>
-  <li>4) yarn sequelize db:seed:all> -> <strong>irá preencher as seu banco com alguns dados de teste</strong></li>
-  <li>5) yarn start></li>
+  <li>1) cd Back-End</li> 
+  <li>2) yarn install</li>
+  <li>3) yarn sequelize db:migrate -> <strong>vai gerar as tabelas no seu banco de dados</strong></li>
+  <li>4) yarn sequelize db:seed:all -> <strong>irá preencher as seu banco com alguns dados de teste</strong></li>
+  <li>5) yarn start</li>
 </ul>
 
-<p>Banco de Dados: </p>
+<p><strong>Banco de Dados: </strong></p>
 <ul>  
-  <li>PostgreSQL></li> 
-  <li>Postbird> -> <strong>GUI para visualizar os dados do banco</strong></li>
+  <li>PostgreSQL</li> 
+  <li>Postbird -> <strong>GUI para visualizar os dados do banco</strong></li>
 </ul>
 
 <hr>
