@@ -27,7 +27,11 @@ export const Content = styled.div`
 `;
 
 export const HeaderAll = styled.div`
-    font-size: 0.875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
     font-weight: 700;
     margin: 0.625rem 0;
     cursor: pointer;
@@ -44,7 +48,7 @@ export const ContentAll = styled.div`
     p {
         cursor: pointer;
         padding: 0.4375rem 0.625rem;
-        font-size: 0.75rem;
+        font-size: 0.875rem;
         font-weight: 400;
         color: #808080;
     }

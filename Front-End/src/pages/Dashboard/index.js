@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import MaterialTable from 'material-table';
-import { FaTachometerAlt } from 'react-icons/fa';
 
 import api from '../../services/api';
 
