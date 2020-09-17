@@ -10,7 +10,16 @@ export const Container = styled.div`
     margin: 1.25rem 0;
 
     p {
-        font-size: 0.75rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        font-size: 1rem;
+
+        svg {
+            margin-right: 0.3125rem;
+        }
 
         span {
             margin-left: 0.625rem;

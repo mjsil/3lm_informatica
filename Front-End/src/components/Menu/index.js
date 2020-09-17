@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import { FaAngleDown } from 'react-icons/fa';
+import { FaAngleUp } from 'react-icons/fa';
 
 import logo from '../../assets/logo.png';
 
@@ -25,6 +27,7 @@ const Menu = () => {
             <Content>
                 <HeaderList onClick={() => setListing(!listing)}>
                     Listagens
+                    {listing ? <FaAngleUp /> : <FaAngleDown />}
                 </HeaderList>
                 <ContentList open={listing}>
                     <p>clientes</p>
@@ -34,6 +37,7 @@ const Menu = () => {
                 <hr />
                 <HeaderRegister onClick={() => setRegister(!register)}>
                     Cadastros
+                    {register ? <FaAngleUp /> : <FaAngleDown />}
                 </HeaderRegister>
                 <ContentRegister open={register}>
                     <p>clientes</p>
