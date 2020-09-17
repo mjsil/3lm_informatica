@@ -10,7 +10,7 @@ export const FullContent = styled.div`
         width: 100%;
 
         p {
-            font-size: 0.75rem;
+            font-size: 1rem;
             margin-bottom: 0.125rem;
         }
     }
@@ -51,5 +51,5 @@ export const Submit = styled.button.attrs(() => ({
     width: 9.375rem;
     background: #00a65a;
     color: #fff;
-    font-size: 0.875rem;
+    font-size: 1rem;
 `;
