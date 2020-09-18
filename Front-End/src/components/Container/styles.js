@@ -15,6 +15,10 @@ export const Menu = styled.div`
     border-right: 0.1875rem solid #e7e7e7;
 
     @media screen and (max-width: 750px) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
         width: 100%;
         height: 3.75rem;
     }

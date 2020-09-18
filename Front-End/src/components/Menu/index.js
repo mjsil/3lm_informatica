@@ -34,7 +34,9 @@ const Menu = () => {
                     <p>fornecedores</p>
                     <p onClick={() => history.push('/')}>funcionários</p>
                 </ContentList>
+
                 <hr />
+
                 <HeaderRegister onClick={() => setRegister(!register)}>
                     Cadastros
                     {register ? <FaAngleUp /> : <FaAngleDown />}
@@ -52,6 +54,7 @@ const Menu = () => {
                         funcionários
                     </p>
                 </ContentRegister>
+
                 <hr />
             </Content>
         </>

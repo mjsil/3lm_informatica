@@ -11,6 +11,11 @@ export const ContainerImg = styled.div`
 
     img {
         max-height: 10.625rem;
+
+        @media screen and (max-width: 750px) {
+            max-height: 3.75rem;
+            margin-top: 1.25rem;
+        }
     }
 `;
 
@@ -23,6 +28,10 @@ export const Content = styled.div`
         height: 0.1875rem;
         margin: 0.3125rem 0;
         border: 0;
+    }
+
+    @media screen and (max-width: 750px) {
+        flex-direction: row;
     }
 `;
 
@@ -51,6 +60,17 @@ export const ContentAll = styled.div`
         font-size: 0.875rem;
         font-weight: 400;
         color: #808080;
+    }
+
+    @media screen and (max-width: 750px) {
+        height: 3.75rem;
+        margin-top: 0.3125rem;
+        overflow: scroll;
+        border: 1px solid #000;
+
+        ::-webkit-scrollbar {
+            width: 0px;
+        }
     }
 `;
 
